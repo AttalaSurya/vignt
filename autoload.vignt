@@ -1,0 +1,7 @@
+<?php
+$vignt_auto = array("\x49\x6b\141\164\x74\141\57\142\141\x73\145", "\111\x6b\141\x74\164\141\57\x63\157\x6e\164\x72\x6f\154\154\x65\162", "\111\x6b\141\x74\x74\x61\57\x63\157\156\x66\151\x67", "\111\x6b\x61\x74\164\x61\57\x6d\x6f\144\x65\x6c");
+foreach ($vignt_auto as $p) {
+    foreach (glob($p . "\57\52\x2e\x69\153\x61\164\164\141\x2e\x70\x68\160") as $component) {
+        require_once $component;
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "database": {
+        "local": {
+            "dsn": "mysql:host=localhost;dbname=tesvignt",
+            "username": "root",
+            "password": ""
+        },
+        "example": {
+            "dsn": "mysql:host=yourdbhost;dbname=yourdbname",
+            "username": "yourdbusername",
+            "password": "yourdbpassword"
+        },
+        "example_port": {
+            "dsn": "mysql:host=yourdbhost;port=yourdbport;dbname=ypurdbname",
+            "username": "yourdbusername",
+            "password": "yourdbpassword"
+        }
+    }
+}
